@@ -269,11 +269,11 @@ LR                  = 1e-3
 EARLY_STOP_PATIENCE = 10
 BATCH_SIZE          = 32
 
-# Evaluation (matches dissertation)
+# Evaluation
 N_BOOTSTRAP_TRIALS = 50
 BOOTSTRAP_SAMPLE   = 20
 
-# CDT limited dataset (matches dissertation seed)
+# CDT limited dataset
 LIMITED_N    = 9
 LIMITED_SEED = 12
 ```
