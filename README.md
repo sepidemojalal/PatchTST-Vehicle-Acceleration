@@ -116,8 +116,6 @@ Input: (batch, 10 timesteps, 4 features)
 
 ## Evaluation protocol
 
-Identical to the dissertation's Stage 1 evaluation:
-
 1. **Bootstrap MSE:** 50 independent trials, each drawing 20 samples **without replacement** from the 92 test blocks
 2. **Confidence interval:** Student-t 95 % CI computed from the 50 MSE values (`df = 49`)
 3. **Statistical significance:** CI non-overlap between two models ≡ ANOVA alternative hypothesis H₁ (statistically significant difference)
