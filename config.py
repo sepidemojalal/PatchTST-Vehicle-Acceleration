@@ -1,10 +1,4 @@
-# =============================================================================
-# config.py
-# Central configuration for the PatchTST one-step acceleration prediction
-# experiment (Stage 1 of Sepide Mojalal's PhD dissertation, Rowan University).
-#
-# All hyperparameters, dataset constants, and output paths live here.
-# Edit this file to change any setting — every other module imports from here.
+
 # =============================================================================
 
 import os
