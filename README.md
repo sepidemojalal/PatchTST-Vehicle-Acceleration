@@ -1,10 +1,5 @@
 # PatchTST for Vehicle Acceleration Prediction — Stage 1
 
-**PhD Dissertation · Rowan University · Department of Electrical and Computer Engineering**  
-**Candidate:** Sepide Mojalal  
-**Advisor:** Dr. Ravi P. Ramachandran  
-**Dissertation:** *User-Specific Framework in Trajectory Prediction: From Fully Local Distributed Learning to Privacy-Preserving Federated Learning*
-
 ---
 
 ## What this repository does
