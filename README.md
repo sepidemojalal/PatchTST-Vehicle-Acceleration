@@ -135,7 +135,7 @@ PatchTST-Vehicle-Acceleration/
 ├── .gitignore
 │
 ├── src/
-│   ├── data_utils.py        ← Synthetic generator, Dataset class, CDT builder
+│   ├── data_utils.py        ← Dataset class, CDT builder
 │   ├── model.py             ← PatchTSTRegressor (HuggingFace backbone + head)
 │   ├── train.py             ← Training loop (Adam, early stopping, checkpoint)
 │   ├── evaluate.py          ← Bootstrap MSE, 95 % CI, CI overlap test
