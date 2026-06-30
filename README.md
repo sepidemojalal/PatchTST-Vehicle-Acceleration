@@ -278,8 +278,6 @@ LIMITED_N    = 9
 LIMITED_SEED = 12
 ```
 
-**Stage 2 upgrade:** To extend to 2.5-second horizon (Stage 2), change only `HORIZON_STEPS = 25` in `config.py`. All sliding-window logic adjusts automatically.
-
 ---
 
 ## Running tests
@@ -302,8 +300,3 @@ PatchTST replaces LSTM as the data-driven predictor. All other conditions are he
 
 ---
 
-## Contact
-
-**Sepide Mojalal**  
-PhD Candidate · Department of Electrical and Computer Engineering · Rowan University  
-Advisor: Dr. Ravi P. Ramachandran
