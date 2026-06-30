@@ -290,13 +290,3 @@ pytest tests/ -v
 
 ---
 
-## Relation to the dissertation
-
-This repository implements the **future work** from Section 5 of the PhD proposal:
-
-> *"Extend the data-driven model family to a more modern architecture. Our initial investigation used IDM, Helly, and an LSTM to establish proof-of-feasibility under limited per-vehicle data. As a next step, we will evaluate a more expressive sequence model (e.g., a Transformer-based predictor) under the same User-specific and federated protocols. This pertains to Stage 1."*
-
-PatchTST replaces LSTM as the data-driven predictor. All other conditions are held constant: same dataset (NGSIM, 30 vehicles), same train/test split (248/102 rows), same three-model comparison (User-Specific vs CDT Full vs CDT Limited), same evaluation protocol (bootstrapped MSE, 95 % CI, CI overlap test).
-
----
-
