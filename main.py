@@ -1,10 +1,4 @@
 # =============================================================================
-# main.py
-# Entry point for PatchTST one-step vehicle acceleration prediction.
-# PhD dissertation Stage 1 — Sepide Mojalal, Rowan University, 2026.
-#
-# Experiment overview
-# ───────────────────
 # Dataset : Enhanced NGSIM (US-101 + I-80)
 #           30 vehicles · 350 obs each · 0.1 s resolution
 #
